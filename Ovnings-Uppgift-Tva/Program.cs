@@ -10,9 +10,9 @@
             Console.WriteLine("1. - Add Items to your Shopping List.");
             Console.WriteLine("2. - View your Shopping List.");
             Console.WriteLine("3. - Exit");
-            int switchSelector = Convert.ToInt32(Console.ReadLine());
+            int userChoice = Convert.ToInt32(Console.ReadLine());
 
-            switch (switchSelector)
+            switch (userChoice)
             {
                 case 1:
                     AddToShoppingList(shoppingList);
@@ -48,8 +48,8 @@
         Console.WriteLine("Do you wish to add another item?");
         Console.WriteLine("1. - Yes");
         Console.WriteLine("2. - No");
-        int switchSelectorTwo = Convert.ToInt32(Console.ReadLine());
-        switch (switchSelectorTwo)
+        int userChoice = Convert.ToInt32(Console.ReadLine());
+        switch (userChoice)
         {
             case 1:
                 AddToShoppingList(shoppingList);
